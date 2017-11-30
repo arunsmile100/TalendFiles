@@ -1,0 +1,92 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Testfunctions {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          /*  ArrayList<Integer> listofval=new ArrayList();
+            ArrayList<Integer> listofEven;
+            ArrayList<Integer> getListOf;
+            listofval.add(1);
+            listofval.add(2);
+            listofval.add(3);
+            listofval.add(4);
+            listofEven= getEven(listofval);
+            for (Integer getList : listofEven) {
+				System.out.println(getList);
+			}
+            System.out.println("Sum Of List="+getSum(listofval));
+            getListOf=getindNumbers(123);
+            for (Integer j=0;j<getListOf.size();j++) {
+				System.out.println(getListOf.get(j));
+			}*/
+            System.out.println(CheckUnique("hello"));
+	}
+
+	private static boolean CheckUnique(String s) {
+		
+		if(s.length()==0) return true;
+
+		else {
+			
+			HashMap<Character,Integer> a=new HashMap<>();
+	    for(int i=0;i<s.length();i++) {
+	    	  if(a.get(i)!=null) {
+	    		  if(a.get(i)==1) {
+	    			  return false;
+	    		  }
+	    	  }
+	    		  a.put(s.charAt(i), 1);
+	    }
+	    		  return true;
+	    	  
+	    	  
+	    				  
+	    }
+		// TODO Auto-generated method stub
+
+	}
+
+	private static ArrayList<Integer> getindNumbers(Integer num) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> temp = new ArrayList<>();
+		
+		while(num>0)
+		{
+			Integer val=num%10;
+			temp.add(val);
+			num=num/10;
+		}
+		return temp;
+	}
+
+	private static Integer getSum(ArrayList<Integer> listofval) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		for (int i=0;i<listofval.size();i++)
+		{
+			
+				sum=sum+listofval.get(i);
+			
+		}
+		return sum;
+	}
+
+	private static ArrayList<Integer> getEven(ArrayList<Integer> listofval) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> retList = new ArrayList<>();
+	for (int i=0;i<listofval.size();i++)
+	{
+		if(i%2!=0) {
+			retList.add(listofval.get(i));
+		}
+	}
+		return retList;
+	}
+
+	
+}

@@ -1,0 +1,22 @@
+package com.amazonaws.lambda.demo;
+
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+import test.getallissues_1_0.GetAllIssues;
+import test.ws_jira_getakissues_0_1.WS_Jira_GetAKIssues;
+
+public class LambdaFunctionHandler implements RequestHandler<String, String> {
+
+    @Override
+    public String handleRequest(String input, Context context) {
+        context.getLogger().log("Input: " + input);
+         GetAllIssues etl_sampleClass = new GetAllIssues();
+        String[] args = {};
+       etl_sampleClass.runJob(args);
+        // TODO: implement your handler
+      context.getLogger().log("exitCode: ");
+        return "Hello from Lambda!";
+    }
+
+}

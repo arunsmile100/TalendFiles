@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+package FacebookQuestions;
+
+/**
+ * @author arunnarayanaswamy
+ *
+ */
+public class TestFunc2 {
+
+	/**
+	 * @param args
+	 */
+	static Node head;
+	public class Node{
+		int data;
+		Node next;
+		public Node(){
+		
+		}
+		public Node(int a){
+			this.data=a;
+			this.next=null;
+		}
+       public Node getNext()
+        {
+        	  return this.next;
+        }
+       public void setNext(Node val) {
+    	    this.next=val;
+       }
+		
+	}
+	
+	public void addList(int a,Node x) {
+		Node local = new Node(a);
+	    
+		if(x==null) {x=local; return;}
+		while(x.getNext()!=null) {
+			
+			x=x.getNext();
+		}
+		x.setNext(local);
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       
+		TestFunc2 obj=new TestFunc2();
+		
+		
+		obj.addList(2,obj.head);
+		obj.addList(3,obj.head);
+		obj.addList(2,obj.head);
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.amazonaws.lambda.demo;
+
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.LambdaLogger;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+import test.getallissues_1_0.GetAllIssues;
+import test.ws_jira_getakissues_0_1.WS_Jira_GetAKIssues;
+
+public class LambdaFunctionHandler implements RequestHandler<String, String> {
+
+    @Override
+    public String handleRequest(String input, Context context) {
+        context.getLogger().log("Input: " + input);
+         GetAllIssues etl_sampleClass = new GetAllIssues();
+        String[] args = {};
+        String serverName="arn:aws:rds:us-west-2:009239925715:db:arundb";
+        String userName="arun";
+        String Passwd="creative100";
+       //String userName=System.getenv("username");
+       // String[] context=new String[] {"--context_param postgres_JIRA_Server="+serverName  --context_param postgres_JIRA_Login="+name};"
+        	String [] contextParam=new String[] {"--context_param postgres_JIRA_Server="+serverName,"--context_param postgres_JIRA_Login="+userName,"--context_param postgres_JIRA_Password="+Passwd};
+       // String [] s1=new String[]
+        	try {
+    	   context.getLogger().log("Before Execution"); 
+        	etl_sampleClass.runJobInTOS(contextParam);
+        	context.getLogger().log("After Execution"); 
+        	
+       }
+       catch (Exception e) {
+		// TODO: handle exception
+    	   
+    	   context.getLogger().log("Failed Execution"); 
+	}
+        // TODO: implement your handler
+      context.getLogger().log("exitCode: ");
+        return "Hello from Lambda!";
+    }
+
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getabissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getakissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getazissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getinissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getlaissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getmsissues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getmt_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getnh_iweb_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getoh_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_gettn_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getwa_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getwv_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/ws_jira_getwy_issues_0_1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/GetAllIssues/getallissues_1_0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/advancedPersistentLookupLib-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/bcprov_1.51.0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/com.google.guava_15.0.0.v201403281430.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cryptacular-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-core-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-bindings-soap-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-databinding-jaxb-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-frontend-jaxrs-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-rs-client-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-rs-extension-providers-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-security-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-security-saml-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-transports-http-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-ws-security-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/cxf-rt-wsdl-3.1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/ehcache-2.10.3.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/jasypt-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/javax.annotation_1.2.0.v201401042248.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/jboss-serialization.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/jettison-1.3.7.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/joda-time-2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/neethi-3.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-core-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-profile-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-saml-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-saml-impl-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-security-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-security-impl-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-soap-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xacml-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xacml-impl-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xacml-saml-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xacml-saml-impl-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xmlsec-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/opensaml-xmlsec-impl-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/org.apache.commons.codec_1.6.0.v201305230611.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/org.apache.commons.logging_1.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/org.apache.log4j_1.2.15.v201012070815.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/postgresql-9.4-1201.jdbc41.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/routines.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/security-common-6.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/spring-aop-3.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/spring-beans-3.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/spring-context-3.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/spring-core-3.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/spring-expression-3.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/trove.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/woodstox-core-asl-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/wss4j-policy-2.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/wss4j-ws-security-common-2.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/wss4j-ws-security-dom-2.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/wss4j-ws-security-policy-stax-2.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/wss4j-ws-security-stax-2.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/xmlschema-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/arunnarayanaswamy/Desktop/GetAllIssues_1.0/lib/xmlsec-2.0.8.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

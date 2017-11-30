@@ -1,0 +1,194 @@
+//import java.awt.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.*;
+
+
+
+public class Testfunctions {
+	
+	public class Pair<varx,vary>{
+		public final varx x;
+		public final vary y;
+		
+		public Pair(varx a,vary b) {
+			this.x=a;
+			this.y=b;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          /*  ArrayList<Integer> listofval=new ArrayList();
+            ArrayList<Integer> listofEven;
+            ArrayList<Integer> getListOf;
+            listofval.add(1);
+            listofval.add(2);
+            listofval.add(3);
+            listofval.add(4);
+            listofEven= getEven(listofval);
+            for (Integer getList : listofEven) {
+				System.out.println(getList);
+			}
+            System.out.println("Sum Of List="+getSum(listofval));
+            getListOf=getindNumbers(123);
+            for (Integer j=0;j<getListOf.size();j++) {
+				System.out.println(getListOf.get(j));
+			}*/
+            //System.out.println(CheckUnique("helo"));
+		
+		//Pair<Integer,Integer> ab = new Pair<Integer, Integer>(1, 2);
+	/*
+		List listA = new ArrayList();
+		listA.add("a");
+		listA.add("a");
+		
+		Set seta = new HashSet();
+		seta.add(listA);
+		listA.clear();
+		listA.add(seta);*/
+		
+		String s="Hello How are You you";
+		
+		String subString="how";
+		//Integer countWords = checkWords(s);
+		
+		//System.out.print("count of words="+countWords);
+		Integer CountUniqueWords=getUniqueCount(s); 
+		System.out.print("count of Unique words="+CountUniqueWords);
+		
+		Boolean isMatching=false;
+		
+		isMatching=checkSubstr(s,subString);
+		
+		System.out.println("ismatching="+isMatching);
+	}
+
+	private static Boolean checkSubstr(String s, String subString) {
+		// TODO Auto-generated method stub
+		if(s==null || subString==null) {return false;}
+		if(subString.length()>s.length()) {
+			return false;
+		}
+		if(subString.length()==s.length()) {
+			return s.equals(subString);
+		}
+		
+		return s.startsWith(subString) || checkSubstr(s, subString);
+	}
+
+	private static Integer getUniqueCount(String s) {
+		// TODO Auto-generated method stub
+		if(s==null) {
+		return 0;
+		}
+		
+		String[] sArray=s.split("\\s+");
+		int countOfDup=0;
+		int totalWords=sArray.length;
+		HashMap<String, Integer> map1=new HashMap();
+		for(String s1:sArray) {
+			if(map1.get(s1)!=null) {
+				if(map1.get(s1)==1) {
+					countOfDup++;
+				}
+			}
+			else
+			{
+			map1.put(s1.toLowerCase(),1);
+			}
+		}
+		
+		return totalWords-countOfDup;
+	}
+
+	private static Integer checkWords(String s) {
+		// TODO Auto-generated method stub
+		int wordcount=0;
+		Boolean isWord=false;
+		int endOfLine=s.length()-1;
+		if(s==null) { return 0;}
+		else
+		for(int i=0;i<s.length();i++) {
+			if(Character.isAlphabetic(s.charAt(i))&&i!=endOfLine){
+				isWord=true;
+			}
+			else
+			if(!Character.isAlphabetic(s.charAt(i))&&isWord) {
+				wordcount++;
+				isWord=false;
+			}
+            
+			else
+			if(Character.isAlphabetic(s.charAt(i))&&i==endOfLine) {
+				wordcount++;
+			}
+		}
+		
+		return wordcount;
+	}
+
+	private static boolean CheckUnique(String s) {
+		
+		if(s.length()==0) return true;
+
+		else {
+			
+			HashMap<Character,Integer> a=new HashMap<>();
+	    for(int i=0;i<s.length();i++) {
+	    	  if(a.get(s.charAt(i))!=null) {
+	    		  System.out.println(a.get(s.charAt(i)));
+	    		  if(a.get(s.charAt(i))==1) {
+	    			  return false;
+	    		  }
+	    	  }
+	    		  a.put(s.charAt(i), 1);
+	    }
+	    		  return true;
+	    	  
+	    	  
+	    				  
+	    }
+		// TODO Auto-generated method stub
+
+	}
+
+	private static ArrayList<Integer> getindNumbers(Integer num) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> temp = new ArrayList<>();
+		
+		while(num>0)
+		{
+			Integer val=num%10;
+			temp.add(val);
+			num=num/10;
+		}
+		return temp;
+	}
+
+	private static Integer getSum(ArrayList<Integer> listofval) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		for (int i=0;i<listofval.size();i++)
+		{
+			
+				sum=sum+listofval.get(i);
+			
+		}
+		return sum;
+	}
+
+	private static ArrayList<Integer> getEven(ArrayList<Integer> listofval) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> retList = new ArrayList<>();
+	for (int i=0;i<listofval.size();i++)
+	{
+		if(i%2!=0) {
+			retList.add(listofval.get(i));
+		}
+	}
+		return retList;
+	}
+
+	
+}

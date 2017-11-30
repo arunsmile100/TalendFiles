@@ -1,0 +1,26 @@
+#this is context properties
+#Sun Nov 12 13:55:20 MST 2017
+postgres_JIRA_Server=localhost
+postgres_JIRA_Database=JiraDB
+postgres_JIRA_Port=5432
+postgres_JIRA_Schema=jira
+postgres_JIRA_Login=jira
+postgres_JIRA_Password=e95df77879af1649
+ws_url_HDAK=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Alaska')%20and%20status%20not%20in%20(Closed)
+auth=d847af5226a108e194b68035b48d0a2ad3b68bddc8ac8896e17fa81fd768e9bc445b8104fa28f70e22c28bae04430549e5743d67fefa01a780f9dca7ffdde3e6
+content=application/json
+ws_url_HDTN=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Tennessee')%20and%20status%20not%20in%20(Closed)
+ws_url_HDAZ=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Arizona')%20and%20status%20not%20in%20(Closed)
+ws_url_HDOH=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Ohio')%20and%20status%20not%20in%20(Closed)
+ws_url_NHSENT=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20New%20Hampshire%20Sentinel')%20and%20status%20not%20in%20(Closed)
+ws_url_HDWV=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20West%20Virginia')%20and%20status%20not%20in%20(Closed)
+ws_url_NHIWEB=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20New%20Hampshire%20IWeb')%20and%20status%20not%20in%20(Closed)
+ws_url_HDLA=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Louisiana')%20and%20status%20not%20in%20(Closed)
+ws_url_HDWA=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Washington')%20and%20status%20not%20in%20(Closed)
+ws_url_HDWY=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Wyoming')%20and%20status%20not%20in%20(Closed)
+ws_url_HDAB=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Alberta')%20and%20status%20not%20in%20(Closed)
+ws_url_HDMS=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Mississippi')%20and%20status%20not%20in%20(Closed)
+ws_url_HDIN=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Indiana')%20and%20status%20not%20in%20(Closed)
+ws_url_NHPrism=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20New%20Hampshire%20PRISM')%20and%20status%20not%20in%20(Closed)
+ws_url_HDMT=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Montana')%20and%20status%20not%20in%20(Closed)
+ws_url_HDMS_SENTINEL=https\://stchome.atlassian.net/rest/api/2/search?jql\=%20project%20in%20('Help%20Desk%20-%20Mississippi%20Sentinel')%20and%20resolution%20in%20(Unresolved)
