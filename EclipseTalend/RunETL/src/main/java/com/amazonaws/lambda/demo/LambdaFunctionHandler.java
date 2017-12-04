@@ -17,11 +17,13 @@ public class LambdaFunctionHandler implements RequestHandler<String, String> {
       //  String serverName="arn:aws:rds:us-west-2:009239925715:db:arundb";
        // String userName="arun";
       //  String Passwd="creative100";
-       String userName=System.getenv("username");
-       String Passwd=System.getenv("password");
-       String serverName=System.getenv("serverName");
+       String userName=System.getenv("Postgres_Username");
+       String Passwd=System.getenv("Postgres_Password");
+       String serverName=System.getenv("Postgres_ServerName");
+       String port=System.getenv("Postgres_Port");
+       String auth=System.getenv("jira_auth");
        // String[] context=new String[] {"--context_param postgres_JIRA_Server="+serverName  --context_param postgres_JIRA_Login="+name};"
-        	String [] contextParam=new String[] {"--context_param postgres_JIRA_Server="+serverName,"--context_param postgres_JIRA_Login="+userName,"--context_param postgres_JIRA_Password="+Passwd};
+        	String [] contextParam=new String[] {"--context_param postgres_JIRA_Server="+serverName,"--context_param postgres_JIRA_Login="+userName,"--context_param postgres_JIRA_Port="+port,"--context_param postgres_JIRA_Password="+Passwd};
        // String [] s1=new String[]
         	try {
     	   context.getLogger().log("Before Execution"+userName); 
